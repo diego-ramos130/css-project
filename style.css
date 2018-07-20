@@ -1,0 +1,22 @@
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.split-head{
+  display:flex;
+}
+.main-logo{
+  flex:50%;
+}
+
+.socials{
+  flex:50%;
+}
+
+.nav-link{
+  position: relative;
+  left:50%;
+}
