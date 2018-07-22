@@ -1,3 +1,6 @@
+body{
+  width:90%;
+}
 
 img {
   max-width: 100%;
@@ -7,9 +10,12 @@ img {
 
 .split-head{
   display:flex;
+  padding-bottom: 2%;
+  border-bottom: 2em inset grey;
 }
 .main-logo{
   flex:50%;
+  display:inline;
 }
 
 .socials{
@@ -19,4 +25,50 @@ img {
 .nav-link{
   position: relative;
   left:50%;
+}
+
+.title {
+  font-size:20;
+  display:inline;
+  position: relative;
+  bottom: 60%;
+}
+.subtitle{
+  font-size:15;
+  display:inline;
+  position: relative;
+  right:20%;
+}
+
+.inlinelogo{
+  display:inline;
+}
+
+.article-subtitle{
+  font-size:12;
+}
+
+.row {
+  display:flex;
+}
+
+.column-heavy{
+  flex:85%;
+}
+.column-light{
+  flex:15%;
+  display:inline;
+}
+
+.print-link{
+  position: relative;
+  top:60%;
+  display:inline;
+}
+
+.print-text{
+  position: relative;
+  display:inline;
+  top:60%;
+  font-size:12;
 }
