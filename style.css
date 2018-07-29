@@ -11,7 +11,7 @@ img {
 .split-head{
   display:flex;
   padding-bottom: 2%;
-  border-bottom: 2em inset grey;
+  
 }
 .main-logo{
   flex:50%;
@@ -24,7 +24,7 @@ img {
 
 .nav-link{
   position: relative;
-  left:50%;
+  left:47%;
 }
 
 .title {
@@ -32,12 +32,15 @@ img {
   display:inline;
   position: relative;
   bottom: 60%;
+  font-family: 'Yellowtail', cursive;
+  
 }
 .subtitle{
-  font-size:15;
+  font-size:12;
   display:inline;
   position: relative;
   right:20%;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .inlinelogo{
@@ -51,9 +54,12 @@ img {
 .row {
   display:flex;
 }
+.column{
+  flex:50%;
+}
 
 .column-heavy{
-  flex:85%;
+  flex:75%;
 }
 .column-light{
   flex:15%;
@@ -71,4 +77,12 @@ img {
   display:inline;
   top:60%;
   font-size:12;
+}
+
+p {
+  text-indent: 1.5em;
+}
+
+.footer-text, .footer-text-2{
+  text-align:middle;
 }
